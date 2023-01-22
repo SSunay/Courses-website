@@ -1,0 +1,53 @@
+#Details{
+    padding: 200px 50px;
+    background-color: #efe1f5;
+    .goBack{
+        position: relative;
+        bottom: 150px;
+            padding: 10px 25px;
+        font-size: 17px;
+        background-color:#FF9F67 ;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        transition: 1s;
+        &:hover{
+            background-color: #C751FD;
+        }  
+    }
+    .detail{
+            column-gap: 200px;
+
+        display: flex;
+        .info{
+            .courseName{
+                span{
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+            .desc{
+                width: 500px;
+                 span{
+                    font-size: 20px;
+                    font-weight: 700;
+
+                }
+            }
+            .detailsPrice{
+                span{
+                    font-size: 20px;
+                    font-weight: 700;
+
+                }
+            }
+        }
+        img{
+            width: 500px;
+            border: 3px solid #C751FD;
+            border-radius: 15px;
+            position: relative;
+            bottom: 50px;
+        }
+    }
+}

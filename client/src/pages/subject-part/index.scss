@@ -1,0 +1,33 @@
+.subject{
+    .subjectTitle{
+        text-align: center;
+        margin: 200px 0px 100px 0px;
+        color: #4255A4;
+        font-size: 20px;
+        h1{
+            font-weight: 400;
+        }
+    }
+    .part_01{
+        display: flex;
+        justify-content: space-around;
+        h2{
+            color: white;
+            position: relative;
+            bottom: 110px;
+            left: 60px;
+        }
+        
+    }
+    .part_02{
+        display: flex;
+        justify-content: space-around;
+            h2{
+            color: white;
+            position: relative;
+            bottom: 110px;
+            left: 60px;
+        }
+
+    }
+}
