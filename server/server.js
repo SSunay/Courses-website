@@ -61,6 +61,35 @@ app.use(bodyParser.json())
     })
  })
 
+/// DELETE 
+
+app.delete('/courses/:_id',(req,res)=>{
+    const {_id}=req.params;
+    
+    Courses.findByIdAndDelete(_id,(err,doc)=>{
+        if(!err){
+            res.send(doc)
+        }else{
+            res.status(500).json({message:err})
+        }
+    })
+})
+
+
+///POST
+
+app.post('/courses',(req,res)=>{
+    let course = new Courses({
+        title:req.body.title,
+        description:req.body.description,
+        price:req.body.price,
+        img:req.body.img,
+    })
+    course.save()
+    res.send({message:'success...'})
+})
+
+
 
 
 

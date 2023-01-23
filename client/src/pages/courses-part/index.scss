@@ -15,6 +15,7 @@
         margin-top: 90px;
         flex-wrap: wrap;
         column-gap: 50px;
+        row-gap: 30px;
         justify-content: space-around;
         a{
             text-decoration: none;
@@ -28,6 +29,9 @@
          .courseImg{
             img{
                 width: 310px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+
             }
          } 
          .courseText{

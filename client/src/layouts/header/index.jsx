@@ -12,6 +12,7 @@ const Header = () => {
                 <li><NavLink to={'/'}>About</NavLink></li>
                 <li><NavLink to={'/'}>Contact</NavLink></li>
                 <li><NavLink to={'/'}>Blog</NavLink></li>
+                <li><NavLink to={'/add-course'}>Add new course</NavLink></li>
             </ul>
         </div>
         <div className='navBtn'>
